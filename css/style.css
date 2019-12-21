@@ -1,7 +1,78 @@
+.center{
+    text-align: center;
+}
+
 body {
     background-color: black;
 }
 
+/* --- Top --- */
 img#cover {
     width: 100%;
+}
+
+div#divider {
+    height: 20px;
+}
+
+font#month{
+    color: yellow;
+    font-size: 250%;    
+    font-weight: bold;
+    font-family: monospace;
+    font-style:oblique;
+}
+
+/* --- Table --- */
+#show_table {
+    display:table;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.show_tr_month {
+    display: table-row;
+    height: 50px;
+    column-count: 1;    
+}
+.show_td_month {
+    display: table-cell;
+    border: 5px solid white;
+    column-span: all;    
+}
+.show_tr {
+    display: table-row;
+}
+.show_td {
+    display: table-cell;
+    border: 0.5em solid black;
+}
+
+
+img#places {
+    /* vw = viewport = screen width */
+    width: calc((100vw - 200px)/3); 
+    /* The following doesn't work now */
+    border-left: 10px;
+    border-right: 10px;
+}
+
+font#show_month {
+    color: red;
+    font-size: 200%;    
+    font-weight: bold;
+    font-family: monospace;
+    /*font-style:oblique;*/
+}
+
+font#show_detail {    
+    color: #FFFFFF;
+    font-size: 130%;     
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+    /*font-style:oblique;*/
+}
+
+/* --- Other --- */
+p {
+    color: red;
 }
