@@ -19,7 +19,31 @@ div#divider {
     height: 50px;
 }
 
-font#month{
+/* --- Month List --- */
+#month_link_table {
+    display:table;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.month_link_tr {
+    display: table-row;
+    height: 30px;  
+}
+.month_link_td {
+    display: table-cell;
+    width: 50px;
+    border: 3px solid black; 
+    size: 150%;
+}
+
+.month_link {
+    font-size: 150%;
+    color: gray;    
+}
+
+
+/* --- Table --- */
+font#month {
     color: yellow;
     font-size: 250%;    
     font-weight: bold;
@@ -27,7 +51,6 @@ font#month{
     font-style:oblique;
 }
 
-/* --- Table --- */
 #show_table {
     display:table;
     margin-left:auto; 
@@ -54,7 +77,7 @@ font#month{
 
 img#places {
     /* vw = viewport = screen width */
-    width: calc((100vw - 200px)/3); 
+    width: calc((100vw - 150px)/2); 
     /* The following doesn't work now */
     border-left: 10px;
     border-right: 10px;
