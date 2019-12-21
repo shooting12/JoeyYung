@@ -11,8 +11,12 @@ img#cover {
     width: 100%;
 }
 
-div#divider {
+div#divider_top {
     height: 20px;
+}
+
+div#divider {
+    height: 50px;
 }
 
 font#month{
