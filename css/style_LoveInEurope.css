@@ -19,8 +19,32 @@ div#divider {
     height: 50px;
 }
 
+
+/* --- Info List --- */
+#intro_link_table {
+    display:table;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.intro_link_tr {
+    display: table-row;
+    height: 30px;  
+}
+.intro_link_td {
+    display: table-cell;
+    width: 50px;
+    border: 10px solid black; 
+    size: 150%;
+}
+
+.intro_link {
+    font-size: 150%;
+    color: gray;    
+}
+
+
 /* --- Info --- */
-font#intro {
+font#intro_poster {
     color: yellow;
     font-size: 250%;    
     font-weight: bold;
@@ -34,6 +58,14 @@ img#poster {
 
 img#seats {
     width: calc(100vw/2.5); 
+}
+
+font#intro_video {
+    color: yellow;
+    font-size: 250%;    
+    font-weight: bold;
+    font-family: monospace;
+    font-style:oblique;
 }
 
 iframe#video {
