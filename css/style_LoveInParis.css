@@ -1,0 +1,60 @@
+.center{
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+/* --- Top --- */
+img#cover {
+    width: 100%;
+}
+
+div#divider_top {
+    height: 20px;
+}
+
+div#divider {
+    height: 50px;
+}
+
+/* --- Info --- */
+font#intro {
+    color: yellow;
+    font-size: 250%;    
+    font-weight: bold;
+    font-family: monospace;
+    font-style:oblique;
+}
+
+img#poster {
+    width: 25%;
+}
+
+iframe#video {
+    width: 50%;
+    height: 50%;
+}
+
+div#divider_intro {
+    height: 25px;
+}
+
+/* --- Bottom --- */
+div#divider_bottom {
+    height: 100px;
+}
+
+.back_link {
+    font-size: 150%;
+    color: gray;    
+}
+
+div#divider_bottom2 {
+    height: 15px;
+}
+
+font#copyright {
+    color: gray;
+}
