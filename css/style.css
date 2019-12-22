@@ -99,6 +99,14 @@ font#show_detail {
     /*font-style:oblique;*/
 }
 
+font#show_detail_country {    
+    color: gray;
+    font-size: 115%;     
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+    /*font-style:oblique;*/
+}
+
 /* --- Bottom --- */
 div#divider_bottom {
     height: 100px;
