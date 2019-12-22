@@ -53,11 +53,11 @@ font#intro_poster {
 }
 
 img#poster {
-    width: calc(100vw/2.5); 
+    width: calc(100vw/2); 
 }
 
 img#seats {
-    width: calc(100vw/2.5); 
+    width: calc(100vw/2); 
 }
 
 font#intro_video {
