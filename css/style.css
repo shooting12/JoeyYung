@@ -99,6 +99,19 @@ font#show_detail {
     /*font-style:oblique;*/
 }
 
+/* --- Bottom --- */
+div#divider_bottom {
+    height: 100px;
+}
+
+div#divider_bottom2 {
+    height: 15px;
+}
+
+font#copyright {
+    color: gray;
+}
+
 /* --- Other --- */
 p {
     color: red;
