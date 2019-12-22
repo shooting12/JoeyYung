@@ -32,6 +32,10 @@ img#poster {
     width: calc(100vw/2.5); 
 }
 
+img#seats {
+    width: calc(100vw/2.5); 
+}
+
 iframe#video {
     width: calc(100vw/1.5);
     /* Video ratio = h: w = 4:3 */;
