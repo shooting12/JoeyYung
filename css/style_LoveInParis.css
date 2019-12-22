@@ -29,12 +29,13 @@ font#intro {
 }
 
 img#poster {
-    width: 25%;
+    width: calc(100vw/2.5); 
 }
 
 iframe#video {
-    width: 50%;
-    height: 50%;
+    width: calc(100vw/1.5);
+    /* Video ratio = h: w = 4:3 */;
+    height: calc(calc(100vw/1.5)*(3/4));
 }
 
 div#divider_intro {
@@ -47,7 +48,7 @@ div#divider_bottom {
 }
 
 .back_link {
-    font-size: 150%;
+    font-size: 2em;
     color: gray;    
 }
 
