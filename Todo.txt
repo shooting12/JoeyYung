@@ -1,0 +1,5 @@
+1. Let mobile device and PC can have different display.
+   a. How many show information per row.
+   b. Size of poster/font/...etc.
+2. Hyperlink below cover should be more centered.
+3. Use JavaScript to generate each page automatically.

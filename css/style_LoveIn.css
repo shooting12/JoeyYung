@@ -26,15 +26,16 @@ div#divider {
     margin-left:auto; 
     margin-right:auto;
 }
+
 .intro_link_tr {
     display: table-row;
-    height: 30px;  
+    height: 30px;
 }
+
 .intro_link_td {
     display: table-cell;
-    width: 50px;
-    border: 10px solid black; 
-    size: 150%;
+    width: 60px;
+    border: 10px solid black;     
 }
 
 .intro_link {
