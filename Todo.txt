@@ -3,4 +3,3 @@
    b. Size of poster/font/...etc.
 2. Hyperlink below cover should be more centered.
 3. Use JavaScript to generate each page automatically.
-4. People counter with JavaScript version does not work.
