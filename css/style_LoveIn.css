@@ -75,6 +75,15 @@ iframe#video {
     height: calc(calc(100vw/1.5)*(3/4));
 }
 
+font#intro_show {
+    color: yellow;
+    font-size: 250%;    
+    font-weight: bold;
+    font-family: monospace;
+    font-style:oblique;
+}
+
+
 div#divider_intro {
     height: 25px;
 }
